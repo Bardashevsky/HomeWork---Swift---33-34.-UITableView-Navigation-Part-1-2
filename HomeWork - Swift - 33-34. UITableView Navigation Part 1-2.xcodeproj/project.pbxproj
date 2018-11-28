@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		4FEC01F821A7EAB700D69B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC01F721A7EAB700D69B53 /* AppDelegate.swift */; };
-		4FEC01FA21A7EAB700D69B53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC01F921A7EAB700D69B53 /* ViewController.swift */; };
 		4FEC01FD21A7EAB700D69B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC01FB21A7EAB700D69B53 /* Main.storyboard */; };
 		4FEC01FF21A7EAB900D69B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC01FE21A7EAB900D69B53 /* Assets.xcassets */; };
 		4FEC020221A7EAB900D69B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC020021A7EAB900D69B53 /* LaunchScreen.storyboard */; };
 		4FEC020D21A7EAB900D69B53 /* HomeWork___Swift___33_34__UITableView_Navigation_Part_1_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC020C21A7EAB900D69B53 /* HomeWork___Swift___33_34__UITableView_Navigation_Part_1_2Tests.swift */; };
 		4FEC021821A7EAB900D69B53 /* HomeWork___Swift___33_34__UITableView_Navigation_Part_1_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC021721A7EAB900D69B53 /* HomeWork___Swift___33_34__UITableView_Navigation_Part_1_2UITests.swift */; };
+		4FEC022621A7FBFB00D69B53 /* OBTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEC022521A7FBFB00D69B53 /* OBTableViewController.swift */; };
+		4FEC022821A8015C00D69B53 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 4FEC022721A8015B00D69B53 /* Images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		4FEC01F421A7EAB700D69B53 /* HomeWork - Swift - 33-34. UITableView Navigation Part 1-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HomeWork - Swift - 33-34. UITableView Navigation Part 1-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEC01F721A7EAB700D69B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4FEC01F921A7EAB700D69B53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4FEC01FC21A7EAB700D69B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FEC01FE21A7EAB900D69B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FEC020121A7EAB900D69B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		4FEC021321A7EAB900D69B53 /* HomeWork - Swift - 33-34. UITableView Navigation Part 1-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HomeWork - Swift - 33-34. UITableView Navigation Part 1-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FEC021721A7EAB900D69B53 /* HomeWork___Swift___33_34__UITableView_Navigation_Part_1_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeWork___Swift___33_34__UITableView_Navigation_Part_1_2UITests.swift"; sourceTree = "<group>"; };
 		4FEC021921A7EAB900D69B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FEC022521A7FBFB00D69B53 /* OBTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OBTableViewController.swift; sourceTree = "<group>"; };
+		4FEC022721A8015B00D69B53 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +99,13 @@
 		4FEC01F621A7EAB700D69B53 /* HomeWork - Swift - 33-34. UITableView Navigation Part 1-2 */ = {
 			isa = PBXGroup;
 			children = (
+				4FEC022521A7FBFB00D69B53 /* OBTableViewController.swift */,
 				4FEC01F721A7EAB700D69B53 /* AppDelegate.swift */,
-				4FEC01F921A7EAB700D69B53 /* ViewController.swift */,
 				4FEC01FB21A7EAB700D69B53 /* Main.storyboard */,
 				4FEC01FE21A7EAB900D69B53 /* Assets.xcassets */,
 				4FEC020021A7EAB900D69B53 /* LaunchScreen.storyboard */,
 				4FEC020321A7EAB900D69B53 /* Info.plist */,
+				4FEC022721A8015B00D69B53 /* Images */,
 			);
 			path = "HomeWork - Swift - 33-34. UITableView Navigation Part 1-2";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FEC022821A8015C00D69B53 /* Images in Resources */,
 				4FEC020221A7EAB900D69B53 /* LaunchScreen.storyboard in Resources */,
 				4FEC01FF21A7EAB900D69B53 /* Assets.xcassets in Resources */,
 				4FEC01FD21A7EAB700D69B53 /* Main.storyboard in Resources */,
@@ -256,7 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FEC01FA21A7EAB700D69B53 /* ViewController.swift in Sources */,
+				4FEC022621A7FBFB00D69B53 /* OBTableViewController.swift in Sources */,
 				4FEC01F821A7EAB700D69B53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

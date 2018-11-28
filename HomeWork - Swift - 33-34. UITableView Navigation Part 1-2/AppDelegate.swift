@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let vc = OBTableViewController()
+        
+        let navControllet = UINavigationController.init(rootViewController: vc.initWithFolderPath(path: "/Users/oleksandrbardashevskyi/Desktop/TestFolder"))
+        
+        self.window?.rootViewController = navControllet
+        
         return true
     }
 
